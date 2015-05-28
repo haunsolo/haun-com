@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<script type="text/javascript" src="jquery.js"></script>
+	
+</head> 
+<style>
+.medallion-center{margin:50px auto 0 auto; display:block;}
+#nav-wrap{position:relative; display:block; margin: 0 auto;clear:both;}
+ul{list-style:none; position:relative;  padding:0px; width:auto; margin:0 auto;}
+li{padding: 25px; font-size:2em; display:inline; position:relative;}
+li:last-child{padding-right:0;}
+li:first-child{padding-left:0;}
+
+/* Clear Fix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+</style>
+
+<body> 
+<img class='medallion-center' src='medallion.gif' />
+<nav id="nav-wrap" class="cf">
+	<ul class='cf'>
+		<li =>Work</li>
+		<li >About</li>
+		<li >Contact</li>
+	</ul>
+</nav>
+</body>
+</html>
